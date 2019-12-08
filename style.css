@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header, ul, li {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  margin-right: 0;
+}
+
+a {
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+.container {
+  background-color: #F1F1F1;
+  margin-bottom: 20px;
+}
+
+p{
+  column-count: 4;
+  column-fill: balance;
+  column-rule: 5px double black;
+}
+br{
+  column-span: all;
+}
+
+.footer {
+  position: relative;
+  width: 1400px;
+  height: 70px;
+  padding-top: 10px;
+  background-color: black;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  line-height: 20px;
+}
